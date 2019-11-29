@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="D:\devops\maven\jar\rajini_kanth\target/rajini_kanth.zip">
+    <zipfileset includes="lib/**" dir="D:\devops\maven\jar\rajini_kanth\target"/>
+    <zipfileset includes="rajini_kanth.jar" dir="D:\devops\maven\jar\rajini_kanth\target"/>
+    <zipfileset includes="readme.txt" dir="D:\devops\maven\jar\rajini_kanth"/>
+  </zip>
+</target>
+</project>
